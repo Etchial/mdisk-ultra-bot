@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.10
 
 WORKDIR /app
 
@@ -10,4 +10,4 @@ COPY . /app
 
 #set a default command
 
-CMD python3 main.py
+CMD python3 bot.py
