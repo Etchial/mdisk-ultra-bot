@@ -6,6 +6,8 @@ services:
       - API_ID=${API_ID}
       -API_HASH=${API_HASH}
       -BOT_TOKEN=${BOT_TOKEN}
+      -CUSTOM_FOOTER=${CUSTOM_FOOTER}
+      -MDISK_TOKEN=${MDISK_TOKEN}
       
       
       
