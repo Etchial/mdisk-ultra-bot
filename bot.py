@@ -12,11 +12,11 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-CHANNEL = environ.get('CUSTOM_FOOTER')
-MDISK_TOKEN = environ.get('MDISK_TOKEN')
+API_ID = environ.get('API_id', "25625718")
+API_HASH = environ.get('API_hash', "8b37dac378d0790a94a0da13d628cbff")
+BOT_TOKEN = environ.get('BOT_token', "5829354216:AAEn3NXXcDxkgvN7OubIZaXt1Qqzqm6PLIM")
+CHANNEL = environ.get('CUSTOM_footer', " Join My Channel ")
+MDISK_TOKEN = environ.get('MDISK_token', "Ls7BE9My12LhmG3XClbJ")
 bot = Client('Doodstream bot',
              api_id=API_ID,
              api_hash=API_HASH,
